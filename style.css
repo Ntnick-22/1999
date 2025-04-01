@@ -1,0 +1,332 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  transition: smooth;
+}
+
+#header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #f7f6f3;
+}
+
+#header a {
+  color: #4c4a35;
+  font-size: larger;
+  text-decoration: none;
+}
+
+header p {
+  color: #4c4a35;
+  font-size: larger;
+}
+
+.logo {
+  width: 100px;
+}
+
+#nav-bar {
+  background-color: rgba(0, 0, 0, 0.07);
+  font-family: "Roboto Condensed", sans-serif;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 10vh;
+}
+
+#nav-bar a {
+  font-style: none;
+  text-decoration: none;
+  color: #4c4a35;
+  margin-right: 20px;
+}
+#nav-bar a:hover {
+  color: #c9c1af;
+  border-bottom: 2px solid #c9c1af;
+}
+
+.headings {
+  padding: 20px;
+  font-family: "Roboto Condensed", sans-serif;
+  color: #4c4a35;
+}
+/* Menu section */
+
+.menu-section h1 {
+  text-align: center;
+}
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #2d2d2b;
+}
+
+#main-card {
+  margin-top: 30vh;
+  margin-bottom: 30vh;
+}
+
+img:hover {
+  transform: scale(1.1);
+  color: #5f5e4a;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.card {
+  width: 250px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  background-color: #f8f5f0;
+}
+
+.card-img {
+  width: 100%;
+  max-height: 500px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-text {
+  text-align: center;
+  line-height: 1.5em;
+  padding: 10px;
+  font-size: 1.3em;
+}
+p {
+  font-family: "Libre Baskerville", serif;
+}
+
+/* About-us  */
+#about-us {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#about-us,
+p {
+  padding: 20px;
+}
+
+#about-us h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+#about-us p {
+  font-family: "Libre Baskerville", serif;
+  line-height: 2em;
+}
+
+/* box section */
+
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 20vh;
+  margin-top: 10vh;
+  line-height: 1.5em;
+  padding: 0 20px;
+}
+
+.box h3 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10px;
+}
+
+.box ul {
+  list-style: none;
+}
+.box li a {
+  text-decoration: none;
+  color: #4c4a35;
+  font-family: "Libre Baskerville", serif;
+}
+
+.span {
+  color: #5f5e4a;
+}
+.btn {
+  border-radius: 10px;
+  text-align: center;
+  color: #5f5e4a;
+  background-color: #c9c1af;
+  font-family: "Libre Baskerville", serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+}
+.box ul li a:hover {
+  color: #c9c1af;
+}
+/* footer */
+
+footer {
+  color: #f8f5f0;
+  text-align: center;
+  background-color: #5f5e4a;
+  font-size: smaller;
+}
+
+/* main-meal html */
+/* drinks-html */
+
+/* main-dish and drinks  */
+#main-dish {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.m-dish-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  font-family: "Libre Baskerville", serif;
+}
+
+.card a {
+  text-decoration: none;
+  color: #4c4a35;
+  font-family: "Libre Baskerville", serif;
+}
+
+/*branches  */
+
+#branches {
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
+#branches h2 {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 10vh;
+}
+table {
+  width: 50%;
+  border-collapse: collapse;
+  text-align: left;
+  margin: 0 auto;
+  background-color: #f7f6f3;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+th,
+td {
+  border: 1px solid black;
+  padding: 12px;
+}
+
+th {
+  background-color: #c9c1af;
+  color: #2d2d2b;
+  font-weight: bold;
+}
+
+td {
+  color: #4c4a35;
+}
+
+tr:hover {
+  background-color: #d6cfc2;
+}
+
+/* reservation */
+
+form {
+  font-family: "Roboto Condensed", sans-serif;
+  margin-bottom: 20vh;
+}
+form div {
+  padding: 20px;
+  margin-bottom: 10px 0;
+}
+.form-label {
+  width: 30%;
+  display: inline-block;
+}
+
+.form-control {
+  width: 65%;
+  border: none;
+  outline: none;
+  background-color: #f7f6f3;
+  border-bottom: 1px dashed #a6aa2562;
+}
+
+#radio-box {
+  background-color: black;
+  color: red;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  #header {
+    flex-direction: column;
+    justify-content: center;
+    font-size: small;
+  }
+  .logo {
+    width: 100px;
+  }
+
+  h1,
+  h2,
+  p,
+  a {
+    font-size: small;
+  }
+
+  #card-text p {
+    font-size: small;
+  }
+
+  #nav-bar {
+    flex-direction: row;
+    font-size: smaller;
+  }
+
+  table {
+    size-adjust: 30%;
+    align-items: center;
+    font-size: 10px;
+  }
+  td {
+    padding: 4px;
+  }
+
+  #branches {
+    padding: 0 0px;
+  }
+
+  footer {
+    font-size: small;
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+  #header {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .logo {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024) {
+  #header {
+    flex-direction: row;
+    justify-content: center;
+  }
+}

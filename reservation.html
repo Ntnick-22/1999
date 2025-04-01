@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <title>Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="header">
+      <a href="index.html"
+        ><img src="images/logo.png" alt="logo-image" class="logo"
+      /></a>
+
+      <p>1999 retro restaurant</p>
+    </header>
+
+    <nav id="nav-bar">
+      <a href="index.html">Home</a>
+      <a href="#">Main meal</a>
+      <a href="drinks.html">Festive drinks</a>
+    </nav>
+
+    <!-- form -->
+
+    <form action="">
+      <fieldset>
+        <h2>Step Back to 1999 - Your Table Awaits!</h2>
+
+        <div>
+          <label for="first-name" class="form-label">First name</label>
+          <input
+            type="text"
+            minlength="3"
+            maxlength="20"
+            class="form-control"
+            placeholder="first name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="last-name" class="form-label">Last name</label>
+          <input
+            type="text"
+            minlength="3"
+            maxlength="20"
+            class="form-control"
+            placeholder="last name"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="contact" class="form-label">Phone-number</label>
+          <input type="text" class="form-control" placeholder="+353........" />
+        </div>
+
+        <div>
+          <label for="email" class="form-label">E-mail</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="yourname@gmail.com"
+            required
+          />
+        </div>
+
+        <div>
+          <label for="reserve-date-and-time" class="form-label"
+            >Reserve date and time</label
+          >
+          <input type="datetime-local" class="form-control" required />
+        </div>
+
+        <div>
+          <label for="email" class="form-label">Speical request</label>
+          <input
+            type="email"
+            class="form-control"
+            placeholder="Please let us know if you have any special requests or requirements"
+          />
+        </div>
+
+        <div>
+          <label for="options" class="form-radio">Vegan</label>
+          <input type="radio" name="options" class="radio-box" />
+        </div>
+
+        <div>
+          <label for="options" class="form-radio">Dairy free</label>
+          <input type="radio" name="options" class="radio-box" />
+        </div>
+
+        <div>
+          <label for="options" class="form-radio">Gluten free</label>
+          <input type="radio" name="options" class="radio-box" />
+        </div>
+
+        <div>
+          <label for="options" class="form-radio">Dairy free</label>
+          <input type="radio" name="options" class="radio-box" />
+        </div>
+
+        <div>
+          <input type="submit" value="Reserve" class="btn" />
+          <input type="reset" value="Cancel" class="btn" />
+        </div>
+      </fieldset>
+    </form>
+
+    <footer>
+      <p>copyright &copy; 2025. 1999 restaurant. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
